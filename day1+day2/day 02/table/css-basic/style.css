@@ -1,0 +1,30 @@
+body  {
+    font-family: 'Roboto';
+}
+h2 {
+    color: blue
+}
+
+#heading {
+    color: red;
+}
+
+.title {
+    color: black;
+}
+
+h2#heading {
+    color: yellow;
+}
+
+h2#heading.title {
+    color: grey;
+}
+
+body h2#heading.title {
+    color: brown;
+}
+.icon {
+    color: blueviolet;
+    font-size: 50px;
+}
