@@ -1,0 +1,20 @@
+h1{
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+
+
+    border: 5px solid black;
+/* padding 4 chiều  */
+    /* padding: 20px ; */
+/* 10px : top,bottom , 20px:left , rihgt */
+    /* padding: 10px 20px; */
+
+/* 10 : top 20 left right 30 bottom */
+/* padding: 10px 20px 30px; */
+
+
+
+/* padding: 10px 20px 30px 40px ; */
+
+margin-bottom: 100px;
