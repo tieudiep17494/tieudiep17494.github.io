@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: roboto ;
+    color: #1a2b48;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+ .header-inner {
+     height: 60px;
+     color: #1A2B48;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+
+    box-sizing: border-box
+    ;
+    font-size: 16px;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu-item {
+    display: inline-block;
+    padding: 6px 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+a {
+    text-decoration: none;
+    color: #1a2b48;
+}
+.logo {
+    align-content: center;
+}
+h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#location h3 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#location {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.location-item img {
+    border-radius: 25px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+
+}
+.location-name {
+    text-align: center;
+    margin: 24px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+#tour h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+ .tour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.tour-content {
+    padding: 20px 16px;
+}
+.tour-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0px 12px 0px;
+    padding: 0px 16px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+#header {
+    background-color: #FEF9F7;
+    min-height: 60px;
+}
+
+.logo, .menu {
+    flex: 0 0 50%;
+}
+
+.logo {
+    padding-left: 20px;
+}
+.text-center {
+    text-align: center;
+}
+#tour {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.tour {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#tour h3 {
+    font-size: 36px;
+    font-weight: 600;;
+    margin-bottom: 30px;
+}
+.tour-item {
+    width: 353px;
+    overflow: hidden;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    margin-bottom: 40px;
+}
+
+.tour-content {
+    padding: 20px 16px;
+}
+
+.tour-title {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 0 0px 12px 0px;
+    padding: 0px 16px;
+}
+
+.tour-description {
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(18, 58, 50, 0.5);
+    padding: 0px 16px;
+    margin: 0px;
+}
+#footer {
+    background-color: #FEF9F7;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 500;
+}
+#hotel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#hotel h3 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.hotel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
